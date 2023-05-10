@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install semgrep
 
-      - name: Run semgrep
+      - name: Run semgrep --config auto
         run: semgrep
 
   dockerfile_analysis:
