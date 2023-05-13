@@ -5,14 +5,11 @@
 
 version: 2.0.1
 updates:
-  - package-ecosystem: "npm" documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily
   - package-ecosystem: "docker"
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily
+    open-pull-requests-limit: 10
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
