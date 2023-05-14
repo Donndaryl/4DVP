@@ -8,9 +8,11 @@ updates:
   - package-ecosystem: "docker"
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily
+      interval: "daily"
     open-pull-requests-limit: 10
+    
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
+
